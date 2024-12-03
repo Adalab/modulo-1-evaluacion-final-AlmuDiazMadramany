@@ -1,0 +1,63 @@
+.back{
+    background-color: $color-bg-main;
+    padding-bottom: 30px;
+    
+   
+
+    &_title{
+        text-align: center;
+        font-family: $font-title;
+        padding-top: 30px;
+
+        &_h3{
+            color: #626262;
+            font-size: 14px;
+        }
+
+        &_h2{
+            color:$color-text-main-1;
+            font-size: 23px;
+            padding: 3px;
+        }
+    }
+
+.grid{
+    align-items: center;
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
+    place-items: center;
+
+    &_element{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 15px;
+
+        &_image{
+            border-radius: 50%;
+            width: 120px;
+            box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        &_title{
+            font-family: $font-title;
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+
+}
+
+.button_startnow{
+    background-color: $color-button-main;
+    color: white;
+    font-family: $font-main;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    width: 200px;
+
+    
+}
+}
