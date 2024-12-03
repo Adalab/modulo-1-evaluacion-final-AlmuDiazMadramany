@@ -30,6 +30,7 @@ header.menu{
         &_title{
             font-family: $font-title;
             color: $color-text-header;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             font-size: 40px;
             line-height: 60px;
             margin: 0 auto;
@@ -41,6 +42,7 @@ header.menu{
             font-family: $font-main;
             font-weight:300;
             color: $color-text-header;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             margin: 0 auto;
             font-size: 17px;
             text-align: center;
@@ -60,7 +62,7 @@ header.menu{
     border-radius: 50%;
     border: none;
     position: absolute;
-    right: 190px;
+    right: 180px;
     transform: translate(0px, 70px);
 
    

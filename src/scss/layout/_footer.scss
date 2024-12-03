@@ -1,0 +1,52 @@
+.footer{
+    background-color: $color-bg-footer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+    &_list{
+        list-style: none;
+        padding:10px;
+        line-height: 30px;  
+        text-align: center;      
+        
+        &_menu{
+            text-decoration: none;
+            color: white;
+            font-family: $font-main;
+            font-weight: 300;            
+        }
+    }
+    
+    &_button{
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            border-radius: 50%;
+            border: none;
+            position: absolute;
+            right: 180px;
+            transform: translate(0px, -80px);
+            box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.5);
+    }
+    &_copy{
+        color: white;
+        font-family: $font-main;
+        font-weight: 300;  
+        
+        &_year{
+            padding: 20px;
+        }
+
+        &_heart{
+            color: $color-text-main-2;
+            
+        }
+
+    }
+}
+
+
+
