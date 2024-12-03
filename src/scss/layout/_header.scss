@@ -1,14 +1,19 @@
 
-header.menu{
-
-}
-
 .header{
     background-image: url(../images/img_footer.jpeg);
-    height: 70vh;
+    height: 100vh;
     background-position: 80%;
     background-size: cover;
+
+    @media (min-width:768px) {
+        background-size: cover;
+    }
     
+    @media (min-width:1280px) {
+        background-size: cover;
+    }
+
+
     &_menu{
         background-color: #6c933e;
         border: none;
@@ -20,12 +25,19 @@ header.menu{
     &_section{
         width: 100%;
         height:100%;
-        padding-bottom: 120px;
+        padding-bottom: 100px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
-    
+        
+        @media (min-width:768px) {
+            padding-bottom: 10px;
+        }
+        
+        @media (min-width:1280px) {
+            
+        }
 
         &_title{
             font-family: $font-title;
@@ -36,6 +48,16 @@ header.menu{
             margin: 0 auto;
             text-align: center;
             padding-bottom: 20px;
+
+            @media (min-width:768px) {
+                font-size: 80px;
+                line-height: 100px;
+            }
+            
+            @media (min-width:1280px) {
+                
+            }
+
         }
 
         &_p{
@@ -44,11 +66,24 @@ header.menu{
             color: $color-text-header;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             margin: 0 auto;
-            font-size: 17px;
+            font-size: 21px;
             text-align: center;
             line-height: 25px;
-            padding-left: 80px;
-            padding-right: 80px;
+            padding-left: 45px;
+            padding-right: 45px;
+            padding-bottom: 100px;
+
+            @media (min-width:768px) {
+                font-size: 30px;
+                line-height: 35px;
+                padding-left: 170px;
+                padding-right: 170px;
+                padding-bottom: 110px;
+            }
+            
+            @media (min-width:1280px) {
+                
+            }
 
         }
     }
@@ -62,10 +97,24 @@ header.menu{
     border-radius: 50%;
     border: none;
     position: absolute;
-    right: 180px;
-    transform: translate(0px, 70px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-   
-   
+    @media (min-width:768px) {
+        width: 60px;
+        height: 60px;
+    }
     
+    @media (min-width:1280px) {
+        
+    }
+    &_img{
+        width: 50%;
+        height: auto;
+
+    }
+
 }

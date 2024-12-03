@@ -5,27 +5,64 @@
     padding-right: 20px;
     padding-bottom: 40px;
 
+    @media (min-width:768px) {
+        padding-left: 35px;
+        padding-right: 35px;
+        }
+        
+        @media (min-width:1280px) {
+            
+        }
+
     &_h3{
         font-family: $font-main;
         color: $color-text-main-2;
         font-weight:300;
         font-size: 16px;
         padding-bottom: 7px;
+
+        @media (min-width:768px) {
+        font-size: 20px;
+        }
+        
+        @media (min-width:1280px) {
+            
+        }
     }
 
     &_h2{
         font-family: $font-title;
         font-size: 26px;
+
+        @media (min-width:768px) {
+            font-size: 35px;
+            }
+    
+        @media (min-width:1280px) {
+                
+            }
     }
 
     &_p{
         font-family: $font-main;
+        color:$color-text-main-3;
         font-weight:300;
         font-size: 22px;
         line-height: 30px;
         padding-top: 12px;
         padding-bottom: 60px;
+
+        @media (min-width:768px) {
+            font-size: 23px;
+            padding-bottom: 30px;
+            line-height: 32px;
+            }
+            
+        @media (min-width:1280px) {
+                
+            }
     }
+
     &_button{
         background-color: white;
         padding: 10px;
@@ -35,6 +72,15 @@
         font-family: $font-main;
         font-size: 22px;
         color: $color-button-main;
+
+        @media (min-width:768px) {
+            width: 190px;
+            font-size: 25px;
+            }
+            
+        @media (min-width:1280px) {
+                
+            }
     }
 
 
