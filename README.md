@@ -131,6 +131,18 @@ Este es el proyecto final del Módulo 1 en el que hemos trabajado con HTML y CSS
 
 ## Tabla de Contenidos
 - [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribución](#contribución)
+- [Trabajo](#trabajo)
 - [Licencia](#licencia)
+
+## Instalación
+
+Para instalar este proyecto, clona el repositorio y ejecuta el siguiente comando:
+```bash
+git clone https://github.com/tu_usuario/tu_repositorio.git
+cd tu_repositorio
+# Si tienes dependencias, ejecuta:
+npm install  # o el que uses en tu proyecto
+```
+
+
+
