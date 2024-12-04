@@ -123,3 +123,23 @@ src
 ## Falta algo?
 
 Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+
+
+
+# MÓDULO 1 | EVALUACIÓN FINAL 
+Este es el proyecto final del Módulo 1 en el que hemos trabajado con HTML y CSS, en el que posteriormente hemos incorporado SASS. 
+
+## Tabla de Contenidos
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribución](#contribución)
+- [Licencia](#licencia)
+
+#INSTALACIÓN
+Para instalar este proyecto, clona el repositorio y ejecuta el siguiente comando:
+
+```bash
+git clone https://github.com/tu_usuario/tu_repositorio.git
+cd tu_repositorio
+# Si tienes dependencias, ejecuta:
+npm install  # o el que uses en tu proyecto
