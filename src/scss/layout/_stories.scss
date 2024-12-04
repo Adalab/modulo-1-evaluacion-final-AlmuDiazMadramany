@@ -11,7 +11,9 @@
         }
         
         @media (min-width:1280px) {
-            
+            padding-left: 120px;
+            padding-right: 120px;
+            padding-bottom: 50px; 
         }
 
     &_h3{
@@ -26,7 +28,7 @@
         }
         
         @media (min-width:1280px) {
-            
+            font-size: 16px;
         }
     }
 
@@ -39,7 +41,8 @@
             }
     
         @media (min-width:1280px) {
-                
+            font-size: 30px;
+            padding-bottom: 18px;
             }
     }
 
@@ -59,7 +62,8 @@
             }
             
         @media (min-width:1280px) {
-                
+            font-size: 20px;
+            padding-bottom: 40px;
             }
     }
 
@@ -79,7 +83,8 @@
             }
             
         @media (min-width:1280px) {
-                
+                width: 170px;
+                font-size: 20px;
             }
     }
 
