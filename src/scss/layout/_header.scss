@@ -11,6 +11,7 @@
     
     @media (min-width:1280px) {
         background-size: cover;
+        background-size: 120%
     }
 
 
@@ -36,6 +37,7 @@
         }
         
         @media (min-width:1280px) {
+            padding-bottom: 30px;
             
         }
 
@@ -55,6 +57,11 @@
             }
             
             @media (min-width:1280px) {
+                font-size: 60px;
+                line-height: 70px;
+                padding-left: 250px;
+                padding-right: 250px;
+                padding-bottom: 2px;
                 
             }
 
@@ -82,7 +89,8 @@
             }
             
             @media (min-width:1280px) {
-                
+                font-size: 18px;
+                padding-bottom: 80px;
             }
 
         }
@@ -109,7 +117,8 @@
     }
     
     @media (min-width:1280px) {
-        
+        width: 40px;
+        height: 40px;
     }
     &_img{
         width: 50%;

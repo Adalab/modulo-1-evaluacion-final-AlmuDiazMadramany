@@ -78,6 +78,13 @@
             transform: translate(-50%, -170%);        
             right: 180px;
             box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &_img{
+                width: 50%;
+                height: auto;
+            }
     }
     &_copy{
         color: white;
