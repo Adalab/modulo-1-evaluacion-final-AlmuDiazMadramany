@@ -120,6 +120,15 @@
     border-radius: 20px;
     padding: 12px;
     width: 200px;
+    transition: all 0.3s ease;
+
+    &:hover{
+        background-color: white;
+        color: $color-text-main-2;
+        border: 2px solid $color-text-main-2;
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+    }
   
     @media (min-width:768px) {
         font-size: 24px;

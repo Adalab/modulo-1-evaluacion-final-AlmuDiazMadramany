@@ -76,16 +76,25 @@
         font-family: $font-main;
         font-size: 22px;
         color: $color-button-main;
+        transition: all 0.3s ease;
 
-        @media (min-width:768px) {
-            width: 190px;
-            font-size: 25px;
-            }
-            
-        @media (min-width:1280px) {
-                width: 170px;
-                font-size: 20px;
-            }
+        &:hover{
+            background-color: $color-text-main-2;
+            color: white;
+            transition: all 0.3s ease;
+            transform: scale(1.1);
+
+        }
+
+            @media (min-width:768px) {
+                width: 190px;
+                font-size: 25px;
+                }
+                
+            @media (min-width:1280px) {
+                    width: 170px;
+                    font-size: 20px;
+                }
     }
 
 
